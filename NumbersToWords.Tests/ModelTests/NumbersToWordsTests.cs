@@ -13,5 +13,11 @@ namespace NumberToWords.Tests
       string result = NTW.NumsToWs("4");
       Assert.AreEqual("four", result);
     }
+    [TestMethod]
+    public void NumberToWords_NumToWs_TwoDigit()
+    {
+      string result = NTW.NumsToWs("42");
+      Assert.AreEqual("forty two", result);
+    }
   }
 }

@@ -18,7 +18,7 @@ _A project to introduce the C# language and the .NET Core framework. The console
 
 ## Known Bugs
 
-There are no known bugs at the time of this update.
+Functionality has not yet been achieved for multiple digit numbers.
 
 ## Support and contact details
 
